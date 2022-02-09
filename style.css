@@ -20,6 +20,7 @@ section p{
     background-color: darkgray;
     border-radius: 10px;
     padding: 10px;
+    font-weight: bolder
 }
  
 section ul{
@@ -27,4 +28,12 @@ section ul{
     border-radius: 10px;
     padding: 10px;
     list-style-position: inside;
+    font-weight: bolder
+}
+
+section a{
+    color:rgb(49, 49, 218);
+}
+section a:hover{
+    color: black;
 }
