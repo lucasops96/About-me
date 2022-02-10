@@ -14,6 +14,9 @@ footer {
 footer > img {
     border-radius: 100px;
 }
+section {
+    text-align: center;
+}
 
 section p{
     text-align: justify;
@@ -23,10 +26,12 @@ section p{
     font-weight: bolder
 }
  
-section ul{
+section  ul{
     background-color: darkgray;
+    display: inline-block;
     border-radius: 10px;
     padding: 10px;
+    text-align: left;
     list-style-position: inside;
     font-weight: bolder
 }
