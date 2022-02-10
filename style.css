@@ -8,12 +8,13 @@ body{
     max-width: 800px;
 }
 
-footer {
+header {
     text-align: center;
 }
-footer > img {
+header > img {
     border-radius: 100px;
 }
+
 section {
     text-align: center;
 }
