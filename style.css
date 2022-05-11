@@ -6,9 +6,9 @@ body{
     margin: auto;
     min-width: 300px;
     max-width: 800px;
-    background-image: url('./imagensrs/greg-rosenke-6QnEf_b47eA-unsplash.jpg');
+    background-image: url('./imagensrs/05aac6954aea503fd8fafab54f68728e.gif');
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center center;
 }
 
 header {
