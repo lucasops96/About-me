@@ -7,7 +7,7 @@ body{
     min-width: 300px;
     max-width: 800px;
     background-image: url('./imagensrs/greg-rosenke-6QnEf_b47eA-unsplash.jpg');
-    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
