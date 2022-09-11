@@ -6,9 +6,10 @@ body{
     margin: auto;
     min-width: 300px;
     max-width: 800px;
-    background-image: url('./imagensrs/05aac6954aea503fd8fafab54f68728e.gif');
+    background-color: #1A1A1A;
+    /* background-image: url('./imagensrs/05aac6954aea503fd8fafab54f68728e.gif');
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
 }
 
 header {
