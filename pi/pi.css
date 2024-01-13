@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -71,4 +71,143 @@ body{
 
 .btn-consulta:hover{
     background-color: #222222;
+} */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-width: 300px;
+}
+
+.pi-header {
+    background-color: #070707;
+    color: #D1B15E;
+    display: flex;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pi-header > div > a {
+    text-decoration: none;
+    color: #D1B15E;
+    margin-right: 10px;
+}
+
+.pi-header > div > a:hover {
+    color: white;
+}
+
+.pi-main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.pi-poster{
+    flex:1;
+    width: 600px; 
+    height: 850px;  
+    object-fit: cover; 
+}
+.pi-logo {
+    flex: 2;
+    width: 983px; 
+    height: 850px; 
+    object-fit: cover;
+}
+
+.contatos {
+    position: relative;
+}
+
+.btn-consulta {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #003ee6;
+    padding: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-consulta:hover {
+    background-color: #222222;
+}
+
+@media screen and (max-width: 600px) {
+    .pi-main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .pi-header {
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+    }
+
+    .pi-header > div > a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .pi-poster{
+        width: 380px;  
+        object-fit: cover; 
+    }
+
+    .pi-logo {
+        visibility: hidden;
+    }
+
+    .btn-consulta {
+        top: 50%;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .pi-main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .pi-header {
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+    }
+
+    .pi-header > div > a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .pi-poster{
+        width: 280px;  
+        object-fit: cover; 
+    }
+
+    .pi-logo {
+        visibility: hidden;
+    }
+
+    .btn-consulta {
+        top: 50%;
+    }
+}
+
