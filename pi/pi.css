@@ -111,14 +111,27 @@ body {
     width: 100%;
     margin: 0 auto;
     display: flex;
+    background-image: url('../pi-img/Logo\ 1\ Horizontal.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .pi-poster{
-    flex:1;
-    width: 600px; 
+    margin: 0 auto;
+    display: block;
+    width: 700px; 
     height: 850px;  
     object-fit: cover; 
+
+    opacity: 1; /* Começa com opacidade 1 */
+    transition: opacity 1s ease-in-out;
 }
+
+.pi-poster.loaded {
+    opacity: 0.5; /* Quando a classe loaded estiver presente, ajusta a opacidade para 0 */
+}
+
 .pi-logo {
     flex: 2;
     width: 983px; 
@@ -175,7 +188,7 @@ body {
     }
 
     .btn-consulta {
-        top: 50%;
+        top: 70%;
     }
 }
 
@@ -207,7 +220,7 @@ body {
     }
 
     .btn-consulta {
-        top: 50%;
+        top: 70%;
     }
 }
 
