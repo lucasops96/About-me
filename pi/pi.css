@@ -1,80 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Lato', sans-serif;
-    min-width: 300px;
-}
-
-.pi-header{
-    background-color: #070707;
-    color: #D1B15E;
-    display: flex;
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.pi-header > div > a{
-    text-decoration: none;
-    color: #D1B15E;
-    margin-right: 10px;
-}
-
-.pi-header > div > a:hover{
-    color: white;  
-}
-
-.pi-main{
-    width: 500px;
-    height: 900px;
-    display: flex;
-}
-
-.pi-poster{
-    width: 600px; 
-    height: 850px; 
-    object-fit: cover; 
-    position: relative;
-}
-
-.pi-logo{
-    width: 983px; 
-    height: 850px; 
-    object-fit: cover;
-    position: relative;
-}
-
-.btn-consulta{
-    position: absolute;
-    top: 50%;
-    left: 74%;
-    transform: translate(-50%, -50%);
-    display: block;
-
-    text-decoration: none;
-    color: white;
-    background-color: #003ee6;
-    padding: 16px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-consulta:hover{
-    background-color: #222222;
-} */
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -132,12 +58,6 @@ body {
     opacity: 0.5; /* Quando a classe loaded estiver presente, ajusta a opacidade para 0 */
 }
 
-.pi-logo {
-    flex: 2;
-    width: 983px; 
-    height: 850px; 
-    object-fit: cover;
-}
 
 .contatos {
     position: relative;
@@ -161,6 +81,51 @@ body {
     background-color: #222222;
 }
 
+.atuacaoes{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.card-atuacao{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px 0 15px 0;
+
+    text-align: center;
+}
+
+.card-atuacao > h3{
+    margin-bottom: 10px;
+}
+
+.contato{
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    background-color: #D1B15E;
+}
+
+.contato,li{
+    margin-top: 5px;
+}
+
+.main-footer{
+    background-color: #070707;
+    color: aliceblue;
+    height: 60px;
+    padding: 20px;
+}
+
+.main-footer > a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
     .pi-main {
         flex-direction: column;
@@ -179,16 +144,16 @@ body {
     }
 
     .pi-poster{
-        width: 380px;  
+        width: 430px;  
         object-fit: cover; 
-    }
-
-    .pi-logo {
-        visibility: hidden;
     }
 
     .btn-consulta {
         top: 70%;
+    }
+
+    .atuacaoes{
+        flex-direction: column;
     }
 }
 
@@ -215,12 +180,8 @@ body {
         object-fit: cover; 
     }
 
-    .pi-logo {
-        visibility: hidden;
-    }
-
     .btn-consulta {
-        top: 70%;
+        top: 80%;
     }
 }
 
