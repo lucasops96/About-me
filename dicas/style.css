@@ -31,6 +31,14 @@ header > h1{
     color: #1A1A1A;
 }
 
+.a-home{
+    text-decoration: none;
+}
+
+.a-home > h1{
+    color: #1A1A1A;
+}
+
 .botoes-acoes{
     display: flex;
     gap: 8px;
@@ -97,84 +105,4 @@ display: block;
 
 h1,h2{
     color: aliceblue;
-}
-.img-perfil{
-    text-align: center;
-}
-
-.img-perfil > img {
-    border-radius: 60px;
-    width: 200px;
-    height: 200px;
-}
-
-.div-card {
-    margin-top: 30px;
-    padding: 15px;
-    max-width: 600px;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    background-color: white;
-}
-
-.div-card p{
-    text-align: justify;
-}
-
-.parceiro-magalu{
-    text-align: center;
-    padding: 15px;
-    max-width: 600px;
-    margin: auto;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    background: rgb(117, 117, 238);
-}
-
-.parceiro-magalu p{
-    text-align: center;
-}
-
-.parceiro-magalu a{
-    background: whitesmoke;
-    color: black;
-    width: 100%;
-    padding: 2px;
-    border-radius: 5px;
-}
-
-.title-fala-comigo{
-    color: black;
-}
-
-.div-card  ul{
-    background-color: white;
-    display: inline-block;
-    padding: 10px;
-    text-align: left;
-    list-style-position: inside;
-    list-style-type: none;
-}
-
-
-.div-card a{
-    color:rgb(49, 49, 180);
-}
-.div-card a:hover{
-    color: black;
-}
-
-@media screen and (max-width: 600px) { 
-    .parceiro-magalu a {
-        background: whitesmoke;
-        color: black;
-        display: block; 
-        width: 100%; 
-        padding: 10px; 
-        border-radius: 5px;
-        text-align: center; 
-        margin-top: 10px;
-        font-size: 14px;
-    }
 }
