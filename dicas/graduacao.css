@@ -1,0 +1,23 @@
+.a-home{
+    text-decoration: none;
+}
+
+.a-home > h1{
+    color: #1A1A1A;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#img-grade-curricular{
+    max-width: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ul-dicas{
+    list-style-type:disc;
+    font-weight: bold;
+}
