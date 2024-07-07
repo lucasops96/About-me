@@ -95,7 +95,7 @@ display: block;
 display: block;
 }
 
-h1,h2{
+h2{
     color: aliceblue;
 }
 .img-perfil{
@@ -177,4 +177,20 @@ h1,h2{
         margin-top: 10px;
         font-size: 14px;
     }
+}
+
+@media screen and (max-width: 450px){
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    .botoes-acoes{
+        justify-content: center;
+    }
+
+    .dropbtn, .a-acoes{
+        padding: 5px;
+    }
+
 }
