@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+#ul-dicas li{
+    text-align: justify;
+}
+
 .pix {
     background-color: rgb(201, 197, 197);
     padding: 0px 2px 0px 2px;
