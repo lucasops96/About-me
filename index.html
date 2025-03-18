@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="remover-print">
         <div>
             <h1>Olá,mundo!!!</h1>
         </div>
@@ -35,7 +35,12 @@
         <img src="imagensrs/img-lucas.jpg" alt="perfil">
        </div>
         <div class="div-card">
-            <h3>Quem sou eu?</h3>
+            <div class="div-head-quem-sou-eu">
+                <h3>QUEM SOU EU?</h3>
+                <button class="btn-imprimir remover-print" onclick="Imprimir()">
+                    Imprimir
+                </button>
+            </div>
             <p>
                 Meu nome é <strong>João Lucas</strong>,
                 sou bacharel em Ciência da Computação pela Universidade Estadual da Paraíba 
@@ -55,7 +60,44 @@
             </p>
         </div>
 
-        <div class="div-card parceiro-magalu">
+        <div class="div-card">
+            <h3>FORMAÇÃO</h3>
+            <p>- <strong>Bacharelado em Ciência da Computação</strong></p>
+            <p>- <strong>Instituição:</strong> Universidade Estadudal da Paraíba Câmpus VII</p>
+            <p>- <strong>Período:</strong> 2020 - 2024</p>
+            <br>
+            <hr>
+            <br>
+            <p>- <strong>Mestrado em Ciência da Computação</strong></p>
+            <p>- <strong>Instituição:</strong> Universidade Federal de Campina Grande</p>
+            <p>- <strong>Período:</strong> 2025 - ...</p>
+            <p>Cursando mestrado na área de estudo Engenharia de Software.</p>
+        </div>
+
+        <div class="div-card">
+            <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+            <p>- <strong>Empresa:</strong> InsightGPC Technology Ltda</p>
+            <p>- <strong>Data ínicio:</strong> Ago de 2023, <strong>Data término:</strong> Fev de 2025 </p>
+            <p>- <strong>Cargo</strong>: Júnior</p>
+            <p>- <strong>Habilidades:</strong>
+                <ul style="list-style:disc;margin-left: 30px;">
+                    <li>Django</li>
+                    <li>Python</li>
+                    <li>HTML e CSS</li>
+                    <li>JavaScript e jQuery</li>
+                    <li>MySQL</li>
+                </ul>
+            </p>
+            <p>- <strong>Sobre o trabalho:</strong>
+                Nesta empresa, tive a oportunidade de começar como estagiário, trabalhando com o framework Django, 
+                no qual pude desenvolver novas funcionalidades, realizar aprimoramentos e fazer a manutenção de sistemas 
+                de gestão pública. Após seis meses, fui promovido a desenvolvedor júnior e recebi a tarefa de aprimorar 
+                um sistema de Pesquisa Eleitoral, o que foi realizado com eficiência. Nesse ambiente de desenvolvimento, 
+                também adquiri experiência com tecnologias como jQuery e MySQL.
+            </p>
+        </div>
+
+        <div class="div-card parceiro-magalu remover-print">
             <p>
                 <strong>🚀Sou parceiro Magalu 🛒</strong>
                 <br>
@@ -87,7 +129,7 @@
                         target="_blank" rel="external">/lucasops96</a>-Veja meus projetos no GitHub.</li>
                 <li><img src="imagensrs/icons8-linkedin-32.png" alt="linkdin"><a
                         href="https://www.linkedin.com/in/jo%C3%A3o-lucas-362549216/" target="_blank"
-                        rel="external">/JoãoLucas</a>-Me adciona lá no Linkedin.</li>
+                        rel="external">/João Lucas</a>-Me adciona lá no Linkedin.</li>
                 <li><img src="imagensrs/icons8-reproduzir-youtube-32.png" alt="youtube"><a
                         href="https://www.youtube.com/channel/UConDxrGzupxeKw54YENLbGw" target="_blank"
                         rel="external">/JoãoLucas</a>-Se inscreva no meu canal do Youtube.</li>
@@ -97,3 +139,9 @@
 </body>
 
 </html>
+
+<script>
+    function Imprimir(){
+        window.print()
+    }
+</script>
