@@ -33,6 +33,13 @@ header {
     /* padding-right: 7px; */
 }
 
+footer{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
 header > h1{
     color: #1A1A1A;
 }
